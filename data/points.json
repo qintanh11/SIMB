@@ -1,0 +1,58 @@
+{
+  "points": [
+    {
+      "name": "Kabupaten Bandung, Jawa Barat",
+      "lat": -7.0909,
+      "lng": 107.6689,
+      "risk": "High",
+      "riskLabel": "Tinggi",
+      "description": "Lereng pegunungan dengan curah hujan tinggi dan beberapa zona permukiman padat.",
+      "photo": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "name": "Banjarnegara, Jawa Tengah",
+      "lat": -7.3971,
+      "lng": 109.6947,
+      "risk": "High",
+      "riskLabel": "Tinggi",
+      "description": "Wilayah perbukitan dengan sejarah gerakan tanah saat hujan berkepanjangan.",
+      "photo": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "name": "Agam, Sumatera Barat",
+      "lat": -0.2648,
+      "lng": 100.1667,
+      "risk": "Medium",
+      "riskLabel": "Sedang",
+      "description": "Area lereng vulkanik yang perlu diwaspadai terutama saat hujan ekstrem.",
+      "photo": "https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "name": "Cianjur, Jawa Barat",
+      "lat": -6.8173,
+      "lng": 107.1428,
+      "risk": "Medium",
+      "riskLabel": "Sedang",
+      "description": "Kontur berbukit dan perubahan tata guna lahan menjadi faktor perhatian.",
+      "photo": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "name": "Kandy, Sri Lanka",
+      "lat": 7.2906,
+      "lng": 80.6337,
+      "risk": "High",
+      "riskLabel": "Tinggi",
+      "description": "Pegunungan tropis dengan musim hujan yang dapat memicu ketidakstabilan lereng.",
+      "photo": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "name": "Antioquia, Kolombia",
+      "lat": 6.2442,
+      "lng": -75.5812,
+      "risk": "Medium",
+      "riskLabel": "Sedang",
+      "description": "Lereng Andes dan hujan lebat membuat sejumlah koridor rawan longsor.",
+      "photo": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=500&q=80"
+    }
+  ]
+}
