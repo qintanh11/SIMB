@@ -501,6 +501,81 @@ h2 {
 .definition-points span {
   font-size: 13px;
 }
+.material-heading {
+  margin: 34px 0 16px;
+  font: 700 20px Outfit, sans-serif;
+}
+.impact-grid,
+.preparedness-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+.material-card,
+.preparedness-card {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: white;
+  padding: 21px;
+}
+.material-number,
+.phase-label {
+  color: var(--green);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+.material-card h3,
+.preparedness-card h3,
+.prevention-panel h3 {
+  margin: 9px 0 7px;
+  font: 700 16px Outfit, sans-serif;
+}
+.material-card p,
+.preparedness-card p,
+.prevention-panel p:not(.eyebrow) {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+}
+.prevention-panel {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 32px;
+  align-items: center;
+  margin-top: 24px;
+  padding: 27px;
+  border-radius: 12px;
+  background: #edf6f0;
+}
+.prevention-panel .eyebrow {
+  margin-bottom: 4px;
+}
+.prevention-panel h3 {
+  font-size: 21px;
+  margin: 0 0 8px;
+}
+.prevention-list {
+  display: grid;
+  gap: 9px;
+  margin: 0;
+  padding-left: 18px;
+  color: var(--ink);
+  font-size: 12px;
+}
+.prevention-list li::marker {
+  color: var(--green);
+}
+.preparedness-card {
+  border-top: 3px solid #9fcfba;
+}
+.preparedness-card:nth-child(2) {
+  border-top-color: var(--gold);
+}
+.preparedness-card:nth-child(3) {
+  border-top-color: #518aa2;
+}
 .legend {
   display: flex;
   gap: 17px;
@@ -837,6 +912,9 @@ h2 {
   .report-box {
     gap: 35px;
   }
+  .prevention-panel {
+    gap: 20px;
+  }
   .section {
     padding: 70px 0;
   }
@@ -918,6 +996,18 @@ h2 {
   .emergency-grid,
   .report-box {
     display: block;
+  }
+  .impact-grid,
+  .preparedness-grid,
+  .prevention-panel {
+    grid-template-columns: 1fr;
+  }
+  .prevention-panel {
+    gap: 18px;
+    padding: 21px;
+  }
+  .material-heading {
+    margin-top: 28px;
   }
   .definition-points {
     margin-top: 30px;
